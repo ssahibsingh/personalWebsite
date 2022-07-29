@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Taviraj:wght@100&display=swap");
+
+.skillAndExperience {
+  padding: 100px 0;
+}
+
+.skill__heading-1 {
+  padding-top: 20px;
+}
+
+.skill__heading-2 {
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: "Taviraj", serif;
+}
+
+.section__heading {
+  font-size: 50px;
+  font-family: "Taviraj", serif;
+  transition: 0.8s ease;
+  @media screen and (max-width: "392px") {
+    font-size: 49px;
+  }
+  @media screen and (max-width: "344px") {
+    font-size: 42px;
+  }
+  @media screen and (max-width: "274px") {
+    font-size: 37px;
+  }
+  @media screen and (max-width: "254px") {
+    font-size: 32px;
+  }
+}
+
+.skill {
+  padding: 20px 0;
+
+  .row {
+    padding: 20px 0;
+
+    .skill__detail {
+      // margin: 10px 0;
+      padding: 15px 10px;
+      // border: 2px solid #18171c;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      // box-shadow: 0 0 0 0 #18171c;
+      transition: ease all 0.35s;
+    }
+    h6 {
+      color: #18171c;
+      margin: 0;
+      padding-left: 15px;
+    }
+  }
+  .skill__icon {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    // background: #f7af24;
+    font-size: 50px;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 50%;
+  }
+}
+
+.exp_heading-2 {
+  font-size: 30px;
+  font-family: "Taviraj", serif;
+}
+
+.experience__details {
+  padding: 20px 5px;
+  .row {
+    border-top: 2px solid black;
+    padding-top: 10px;
+  }
+
+  h6 {
+    transition: 0.8s ease;
+    @media screen and (max-width: 385px) {
+      font-size: 14px;
+    }
+    @media screen and (max-width: 350px) {
+      font-size: 12px;
+    }
+  }
+  h5 {
+    transition: 0.8s ease;
+    @media screen and (max-width: 385px) {
+      font-size: 18px;
+    }
+    @media screen and (max-width: 350px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 14px;
+    }
+  }
+  p {
+    transition: 0.8s ease;
+    @media screen and (max-width: 350px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.get-resume {
+  display: flex;
+  justify-content: center;
+  a {
+    text-decoration: none;
+  }
+}

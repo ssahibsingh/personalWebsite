@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@500&display=swap');
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  padding: 0.5rem 0rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(15px);
+  color: black;
+  border-bottom: 0.5px solid #18171c;
+  min-width: 50px;
+  font-family: 'Taviraj', serif;
+}
+
+.nav__logo img {
+  position: relative;
+  width: 200px;
+  transition: 0.8s ease;
+  @media screen and (max-width: 260px) {
+    width: 170px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: 230px) {
+    width: 150px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: 210px) {
+    width: 130px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: 190px) {
+    width: 110px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: 170px) {
+    width: 80px;
+    transition: 0.8s ease;
+  }
+}
+
+.nav__menu{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  ul{
+    padding-top: 1rem;
+    display:flex;
+    li{
+      list-style-type: none;
+      text-decoration: none;
+      a{
+        color: #18171C;
+        &:hover{
+          color: #18171C;
+        }
+      }
+    } 
+  }
+}
+.nav__btn {
+  text-decoration: none;
+  margin-right: 1rem;
+
+  @media screen and (max-width: 820px) {
+    padding-right: 60px;
+  }
+  @media screen and (max-width: 420px) {
+    display: none;
+  }
+}
+
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #e9a622;
+  cursor: pointer;
+  transition: transform 10s ease-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+
+  &:hover {
+    background-color: #fab835;
+  }
+}
+
+@media (max-width: 820px) {
+  .hamburger {
+    display: block;
+  }
+  .nav__menu ul {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh-77px);
+    background: white;
+    // backdrop-filter: blur(4px);
+    border-top: 0.5px solid #18171c;
+    border-bottom: 0.5px solid #18171c;
+    text-align: center;
+    display: none;
+  }
+  .nav__menu.expanded ul {
+    display: block;
+  }
+  .nav__menu li {
+    text-align: center;
+    margin: 0;
+    a {
+      color: black;
+      width: 100%;
+      padding: 1.5rem 0;
+    }
+  }
+}

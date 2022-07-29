@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Taviraj:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    border-radius: 100%;
+    box-shadow: 0px 0px 50px #e9a622;
+
+    @media screen and (max-width: "992px") {
+      width: 350px;
+      transition: 0.8s ease;
+    }
+    @media screen and (max-width: "770px") {
+      width: 280px;
+      transition: 0.8s ease;
+    }
+    @media screen and (max-width: "445px") {
+        width: 250px;
+        transition: 0.8s ease;
+    }
+    @media screen and (max-width: "392px") {
+      width: 250px;
+      transition: 0.8s ease;
+    }
+    @media screen and (max-width: "350px") {
+      width: 230px;
+      transition: 0.8s ease;
+    }
+    @media screen and (max-width: "300px") {
+      width: 210px;
+      transition: 0.8s ease;
+    }
+  }
+}
+
+.header__hello {
+  font-size: 30px;
+  font-weight: bold;
+  // font-family: 'Taviraj', serif;
+  font-family: "Cormorant SC", serif;
+  @media screen and (max-width: "352px") {
+    font-size: 25px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: "274px") {
+    font-size: 20px;
+    transition: 0.8s ease;
+  }
+}
+
+.header__intro {
+  font-size: 80px;
+  font-family: "Cormorant SC", serif;
+  transition: 0.8s ease;
+  @media screen and (max-width: "772px") {
+    font-size: 75px;
+  }
+  @media screen and (max-width: "545px") {
+    font-size: 72px;
+  }
+  @media screen and (max-width: "508px") {
+    font-size: 62px;
+  }
+  @media screen and (max-width: "445px") {
+    font-size: 55px;
+  }
+  @media screen and (max-width: "392px") {
+    font-size: 49px;
+  }
+  @media screen and (max-width: "344px") {
+    font-size: 42px;
+  }
+  @media screen and (max-width: "274px") {
+    font-size: 37px;
+  }
+}
+
+.header__list {
+  list-style-type: none;
+  font-size: 60px;
+  // font-family: 'Taviraj', serif;
+  // font-family: 'Caveat', cursive;
+  font-family: "Amatic SC", cursive;
+  @media screen and (max-width: "772px") {
+    font-size: 55px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: "545px") {
+    font-size: 50px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: "508px") {
+    font-size: 45px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: "445px") {
+    font-size: 40px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: "392px") {
+    font-size: 35px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: "344px") {
+    font-size: 30px;
+    transition: 0.8s ease;
+  }
+  @media screen and (max-width: "274px") {
+    font-size: 25px;
+    transition: 0.8s ease;
+  }
+}
+
+.yellow-tags {
+  color: #e9a622;
+  font-family: "Amatic SC", cursive;
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    padding-top: 100px;
+    text-align: center;
+    transition: 0.8s ease;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    padding-top: 120px;
+    transition: 0.8s ease;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header {
+    padding-top: 140px;
+    transition: 0.8s ease;
+  }
+}

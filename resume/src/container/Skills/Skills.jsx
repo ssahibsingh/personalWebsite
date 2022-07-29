@@ -18,7 +18,7 @@ const Skills = () => {
   }
   return (
     <>
-      <section data-scroll-index="2" className='skillAndExperience'>
+      <section id="#skill" className='skillAndExperience'>
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -47,7 +47,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-python-plain-wordmark colored"></i>
+                        <i class="devicon-python-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>Python</h6> */}
                     </div>
@@ -55,7 +55,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-java-plain-wordmark colored"></i>
+                        <i class="devicon-java-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>Python</h6> */}
                     </div>
@@ -63,7 +63,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-selenium-original colored"></i>
+                        <i class="devicon-selenium-original colored"></i>
                       </div>
                       {/* <h6>CSS</h6> */}
                     </div>
@@ -71,7 +71,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-html5-plain-wordmark colored"></i>
+                        <i class="devicon-html5-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -79,7 +79,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-css3-plain-wordmark colored"></i>
+                        <i class="devicon-css3-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -87,7 +87,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-sass-original colored"></i>
+                        <i class="devicon-sass-original colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -95,7 +95,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -103,7 +103,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-jquery-plain-wordmark colored"></i>
+                        <i class="devicon-jquery-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -111,7 +111,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -119,7 +119,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-nodejs-plain-wordmark colored"></i>
+                        <i class="devicon-nodejs-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -127,7 +127,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-express-original-wordmark colored"></i>
+                        <i class="devicon-express-original-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -135,7 +135,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-react-original-wordmark colored"></i>
+                        <i class="devicon-react-original-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -143,7 +143,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-babel-plain colored"></i>
+                        <i class="devicon-babel-plain colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -151,7 +151,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-mysql-plain-wordmark colored"></i>
+                        <i class="devicon-mysql-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -159,7 +159,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-mongodb-plain-wordmark colored"></i>
+                        <i class="devicon-mongodb-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -167,7 +167,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-heroku-plain-wordmark colored"></i>
+                        <i class="devicon-heroku-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -175,7 +175,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-git-plain-wordmark colored"></i>
+                        <i class="devicon-git-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -183,7 +183,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-github-original-wordmark colored"></i>
+                        <i class="devicon-github-original-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -191,7 +191,7 @@ const Skills = () => {
                   <div className="col-2">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                      <i class="devicon-canva-original colored"></i>
+                        <i class="devicon-canva-original colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>

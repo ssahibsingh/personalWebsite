@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap");
 .contact {
   padding: 100px 0;
-  background: rgba(254, 247, 233, 1);
+//   background: rgba(254, 247, 233, 1);
 }
 .contact__form {
   padding: 20px 0;
@@ -14,7 +14,7 @@
 .contact__form-1 {
   border: 2px solid #18171c;
   padding: 35px;
-  background: #fff;
+//   background: #fff;
 
   @media (max-width: 767px) {
     padding: 25px;
@@ -41,8 +41,14 @@
   }
 }
 
-.form__button a {
-  text-decoration: none;
+.form__button{
+    a{
+        text-decoration: none;
+    }
+    Button{
+        // position:unset;
+        z-index: -1;
+    }
 }
 
 .contact__infos {

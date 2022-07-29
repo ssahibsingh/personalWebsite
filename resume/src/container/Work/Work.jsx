@@ -3,7 +3,7 @@ import './Work.scss'
 const Work = () => {
   return (
     <>
-      <section id="#project" className="work">
+      <section id="project" className="work">
         <div className="container">
           <div className="row">
             <div className="col-6">

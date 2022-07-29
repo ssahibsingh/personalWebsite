@@ -4,7 +4,7 @@ import './Header.scss'
 const Header = () => {
   return (
     <>
-      <section data-scroll-index="0">
+      <section id="home">
         <div className="container">
           <div className="row min-vh-100 align-items-center">
             <div className="col-lg-7">

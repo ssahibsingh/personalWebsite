@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap");
+.contact {
+  padding: 100px 0;
+  background: rgba(254, 247, 233, 1);
+}
+.contact__form {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+//   margin: auto;
+}
+
+.contact__form-1 {
+  border: 2px solid #18171c;
+  padding: 35px;
+  background: #fff;
+
+  @media (max-width: 767px) {
+    padding: 25px;
+  }
+
+  h6 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #18171c;
+    margin: 0 0 5px;
+    font-family: "Saira", cursive;
+    text-align: center;
+  }
+
+  form {
+    padding: 20px 0;
+  }
+
+  .form-control {
+    border-radius: 0;
+    border: 1px solid #18171c;
+    box-shadow: none;
+    padding: 0.575rem 0.75rem;
+  }
+}
+
+.form__button a {
+  text-decoration: none;
+}
+
+.contact__infos {
+    margin: auto 10px;
+  font-size: 30px;
+  a {
+    color: #18171c;
+    margin: 10px 10px;
+  }
+}
+
+.contact__image img {
+  width: 250px;
+}

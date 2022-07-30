@@ -5,7 +5,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
 
 .header {
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
+  padding-top: 25vh;
+  transition: 0.8s ease;
+  min-height: 100vh;
+  @media screen and (max-width: 992px) {
+    padding-top: 15vh;
+    text-align: center;
+  }
+  @media screen and (max-width: 820px) {
+    padding-top: 12vh;
+  }
+  @media screen and (max-width: 445px) {
+    padding-top: 14vh;
+  }
+  @media screen and (max-width: 392px) {
+    padding-top: 16vh;
+  }
+  @media screen and (max-width: 340px) {
+    padding-top: 18vh;
+  }
+  @media screen and (max-width: 300px) {
+    padding-top: 16vh;
+  }
 }
 
 .profile-pic {
@@ -118,26 +140,6 @@
   }
   @media screen and (max-width: "274px") {
     font-size: 25px;
-    transition: 0.8s ease;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .header {
-    padding-top: 100px;
-    text-align: center;
-    transition: 0.8s ease;
-  }
-}
-@media screen and (max-width: 600px) {
-  .header {
-    padding-top: 120px;
-    transition: 0.8s ease;
-  }
-}
-@media screen and (max-width: 400px) {
-  .header {
-    padding-top: 140px;
     transition: 0.8s ease;
   }
 }

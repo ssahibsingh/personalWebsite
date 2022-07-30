@@ -1,42 +1,36 @@
 import React from 'react'
-import './Work.scss'
-const Work = () => {
+import './Project.scss'
+const Project = () => {
   return (
     <>
-      <section id="project" className="work">
+      <section id="project" className="project">
         <div className="container">
-          <div className="row">
-            <div className="col-6">
-              {/* <div className="work__"> */}
-              <h2 className="work__heading">Projects</h2>
-              {/* </div> */}
-            </div>
-          </div>
-          <div className="work__display">
+          <h2 className="section__heading">Projects</h2>
+          <div className="project__display">
             <div className="row">
-              <div className="col-lg-4 col-md-6 col-sm-12 col-12 work__details">
-                <div className="work__detail">
+              <div className="col-lg-4 col-md-6 col-sm-12 col-12 project__details">
+                <div className="project__detail">
                   <a href="https://github.com/ssahibsingh/yt-playlist-length">
                     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=yt-playlist-length" alt="" />
                   </a>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 col-12 work__details">
-                <div className="work__detail">
+              <div className="col-lg-4 col-md-6 col-sm-12 col-12 project__details">
+                <div className="project__detail">
                   <a href="https://github.com/ssahibsingh/yt-playlist-length">
                     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=yt-playlist-length" alt="" />
                   </a>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 col-12 work__details">
-                <div className="work__detail">
+              <div className="col-lg-4 col-md-6 col-sm-12 col-12 project__details">
+                <div className="project__detail">
                   <a href="https://github.com/ssahibsingh/yt-playlist-length">
                     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=yt-playlist-length" alt="" />
                   </a>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 col-12 work__details">
-                <div className="work__detail">
+              <div className="col-lg-4 col-md-6 col-sm-12 col-12 project__details">
+                <div className="project__detail">
                   <a href="https://github.com/ssahibsingh/yt-playlist-length">
                     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=yt-playlist-length" alt="" />
                   </a>
@@ -51,4 +45,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Project

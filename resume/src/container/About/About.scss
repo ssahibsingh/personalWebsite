@@ -1,0 +1,134 @@
+.about {
+  padding: 100px 0;
+  background: rgba(254, 247, 233, 1);
+  // .container{
+  //     // width: 100%;
+  // }
+}
+
+.about__item {
+  margin: 0 10px;
+  padding: 20px 10px;
+  transition: 0.5s ease;
+  background: white;
+  height: 100%;
+  border: 2px solid #18171c;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  .about__item-img {
+    text-align: center;
+    img {
+      width: 150px;
+      height: 120px;
+      margin: 10px 0;
+    }
+  }
+
+  .about__item-heading {
+    h3 {
+      text-align: center;
+      font-size: 20px;
+      padding: 10px;
+    }
+    .about__item-para {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        // padding: 10px;
+        width: 90%;
+        height: 70px;
+        &:hover {
+        }
+      }
+    }
+  }
+
+  &:hover {
+    transition: 0.5s ease;
+    transform: scale(1.02);
+  }
+}
+
+.about__item-details {
+  // .about__item-section-1{
+  // }
+  h5 {
+    font-size: 17px;
+    color: #212023;
+  }
+  .about__item-section-2 {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+.venture {
+  padding: 50px 0;
+  .venture__heading {
+    font-size: 35px;
+    font-family: "Taviraj", serif;
+    transition: 0.8s ease;
+
+    @media screen and (max-width: "392px") {
+      font-size: 38px;
+    }
+    @media screen and (max-width: "344px") {
+      font-size: 35px;
+    }
+    @media screen and (max-width: "274px") {
+      font-size: 32px;
+    }
+    @media screen and (max-width: "254px") {
+      font-size: 30px;
+    }
+  }
+  .container {
+    width: 80%;
+
+    .venture__item {
+      background: white;
+      border: 2px solid #18171c;
+      height: 100%;
+      padding: 40px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s ease;
+      //   margin: 0 20px;
+      .venture__item-logo {
+        img {
+          width: 300px;
+          padding: 10px;
+          transition: 0.8s ease;
+          @media screen and (max-width: 540px) {
+            width: 250px;
+          }
+          @media screen and (max-width: 460px) {
+            width: 220px;
+          }
+          @media screen and (max-width: 420px) {
+            width: 200px;
+          }
+        }
+
+        .blur{
+            filter: blur(5.5px);
+        }
+      }
+      .venture__item-about {
+        span {
+          background: #ebf5ff;
+          padding: 8px;
+          border-radius: 10px;
+          a {
+            color: #4489db;
+            text-decoration: none;
+          }
+        }
+      }
+      &:hover{
+        transform: scale(1.02);
+      }
+    }
+  }
+}

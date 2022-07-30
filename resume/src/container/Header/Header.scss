@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Taviraj:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+
+.header{
+  margin-bottom: 60px;
+}
 
 .profile-pic {
   display: flex;
@@ -20,8 +25,8 @@
       transition: 0.8s ease;
     }
     @media screen and (max-width: "445px") {
-        width: 250px;
-        transition: 0.8s ease;
+      width: 250px;
+      transition: 0.8s ease;
     }
     @media screen and (max-width: "392px") {
       width: 250px;
@@ -85,7 +90,8 @@
   font-size: 60px;
   // font-family: 'Taviraj', serif;
   // font-family: 'Caveat', cursive;
-  font-family: "Amatic SC", cursive;
+  font-family: "Square Peg", cursive;
+  // font-family: "Amatic SC", cursive;
   @media screen and (max-width: "772px") {
     font-size: 55px;
     transition: 0.8s ease;
@@ -114,11 +120,6 @@
     font-size: 25px;
     transition: 0.8s ease;
   }
-}
-
-.yellow-tags {
-  color: #e9a622;
-  font-family: "Amatic SC", cursive;
 }
 
 @media screen and (max-width: 992px) {

@@ -4,7 +4,7 @@ import './Header.scss'
 const Header = () => {
   return (
     <>
-      <section id="home">
+      <section id="home" className="header">
         <div className="container">
           <div className="row min-vh-100 align-items-center">
             <div className="col-lg-7">
@@ -12,7 +12,7 @@ const Header = () => {
                 <h6 className="header__hello">Hello. </h6>
                 <h1 className="header__intro">I'm Sahib Singh</h1>
                 <p className="header__list">
-                  <b className="yellow-tags">&lt;</b>Web Developer <b className="yellow-tags">/&gt;</b>
+                  <b className="yellow-tags">&lt;</b>He/Him <b className="yellow-tags">/&gt;</b>
                 </p>
               </div>
             </div>

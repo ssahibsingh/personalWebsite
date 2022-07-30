@@ -4,7 +4,6 @@
   padding: 100px 0;
   // background: rgba(254,247,233,1);
   // backdrop-filter: blur(10px);
-  
 }
 
 .skill__heading-1 {
@@ -16,8 +15,6 @@
   font-size: 30px;
   font-family: "Taviraj", serif;
 }
-
-
 
 .skill {
   padding: 20px 0;
@@ -42,6 +39,7 @@
       padding-left: 15px;
     }
   }
+
   .skill__icon {
     padding: 10px;
     width: 50px;
@@ -105,7 +103,7 @@
   a {
     text-decoration: none;
   }
-  Button{
+  Button {
     z-index: -1;
   }
 }

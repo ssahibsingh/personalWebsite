@@ -1,9 +1,6 @@
 .about {
   padding: 100px 0;
   background: rgba(254, 247, 233, 1);
-  // .container{
-  //     // width: 100%;
-  // }
 }
 
 .about__item {
@@ -34,11 +31,8 @@
       justify-content: center;
       align-items: center;
       p {
-        // padding: 10px;
         width: 90%;
-        height: 70px;
-        &:hover {
-        }
+        height: auto;
       }
     }
   }
@@ -50,8 +44,6 @@
 }
 
 .about__item-details {
-  // .about__item-section-1{
-  // }
   h5 {
     font-size: 17px;
     color: #212023;
@@ -93,8 +85,7 @@
       height: 100%;
       padding: 40px;
       box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    transition: 0.5s ease;
-      //   margin: 0 20px;
+      transition: 0.5s ease;
       .venture__item-logo {
         img {
           width: 300px;
@@ -109,10 +100,19 @@
           @media screen and (max-width: 420px) {
             width: 200px;
           }
+          @media screen and (max-width: 385px) {
+            width: 180px;
+          }
+          @media screen and (max-width: 335px) {
+            width: 150px;
+          }
+          @media screen and (max-width: 315px) {
+            width: 130px;
+          }
         }
 
-        .blur{
-            filter: blur(5.5px);
+        .blur {
+          filter: blur(5.5px);
         }
       }
       .venture__item-about {
@@ -120,14 +120,31 @@
           background: #ebf5ff;
           padding: 8px;
           border-radius: 10px;
+          transition: 0.5s ease;
           a {
             color: #4489db;
             text-decoration: none;
           }
+
+          @media screen and (max-width: 385px) {
+            font-size: 12px;
+          }
+          @media screen and (max-width: 335px) {
+            font-size: 10px;
+          }
         }
       }
-      &:hover{
+      &:hover {
         transform: scale(1.02);
+      }
+      @media screen and (max-width: 385px) {
+        padding: 30px;
+      }
+      @media screen and (max-width: 335px) {
+        padding: 20px;
+      }
+      @media screen and (max-width: 315px) {
+        padding: 20px;
       }
     }
   }

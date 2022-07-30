@@ -129,7 +129,7 @@ const About = () => {
               <div className="col-lg-6 col-12 py-3">
                 <div className="venture__item">
                   <div className="venture__item-logo">
-                    <img className="blur"src={images.soorme} alt="Soorme.com" />
+                    <img className="blur" src={images.soorme} alt="Soorme.com" />
                   </div>
                   <div className="venture__item-about">
                     <p></p>

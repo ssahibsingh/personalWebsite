@@ -27,6 +27,7 @@ const Skills = () => {
               </div>
               <div className="skill">
                 <h3 className="skill__heading-2"><b className="yellow-tags">&lt;</b>My Skills<b className="yellow-tags">/&gt;</b></h3>
+                
                 <div className="row justify-content-center text-center">
                   <div className="col-lg-2 col-md-2 col-sm-3 col-3">
                     <div className="skill__detail">

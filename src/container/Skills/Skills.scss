@@ -2,7 +2,7 @@
 
 .skillAndExperience {
   padding: 100px 0;
-  // background: rgba(254,247,233,1);
+  background: rgba(254,247,233,1);
   // backdrop-filter: blur(10px);
 }
 
@@ -104,6 +104,6 @@
     text-decoration: none;
   }
   Button {
-    z-index: -1;
+    z-index: 1;
   }
 }

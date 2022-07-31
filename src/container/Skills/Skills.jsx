@@ -206,44 +206,35 @@ const Skills = () => {
                 <div className="experience__details">
                   <div className="row">
                     <div className="col-6">
-                      <h6>Jan 2021 - Present</h6>
+                      <h6>Oct 2021 - Present</h6>
                     </div>
                     <div className="col-6">
-                      <h5>Creative Director</h5>
-                      <p>Company</p>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-6">
-                      <h6>Jan 2021 - Present</h6>
-                    </div>
-                    <div className="col-6">
-                      <h5>Creative Director</h5>
-                      <p>Company</p>
+                      <h5>Head of Technical Department</h5>
+                      <p>Gaming Geeks</p>
                     </div>
                   </div>
                   <div className="row">
                     <div className="col-6">
-                      <h6>Jan 2021 - Present</h6>
+                      <h6>Aug 2021 - Present</h6>
                     </div>
                     <div className="col-6">
-                      <h5>Creative Director</h5>
-                      <p>Company</p>
+                      <h5>Web Developer</h5>
+                      <p>Anaitik</p>
                     </div>
                   </div>
                   <div className="row">
                     <div className="col-6">
-                      <h6>Jan 2021 - Present</h6>
+                      <h6>Dec 2021 - Feb 2022</h6>
                     </div>
                     <div className="col-6">
-                      <h5>Creative Director</h5>
-                      <p>Company</p>
+                      <h5>Web Developer</h5>
+                      <p>Tiwana Power Solution</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="get-resume">
-                <a href="/" onMouseOver={() => { setIsOver(true) }} onMouseOut={() => { setIsOver(false) }}><Button colorConfig={colorConfig} className={isOver && "active"} variant="primary" kind="elevated" size="medium" colorMode="dark" >Get Resume</Button></a>
+                <a href="https://ssahibsingh.github.io/resume" target="_blank" rel="noreferrer" onMouseOver={() => { setIsOver(true) }} onMouseOut={() => { setIsOver(false) }}><Button colorConfig={colorConfig} className={isOver && "active"} variant="primary" kind="elevated" size="medium" colorMode="dark" >Get Resume</Button></a>
               </div>
             </div>
           </div>

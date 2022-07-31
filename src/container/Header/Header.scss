@@ -30,37 +30,42 @@
   }
 }
 
+.header__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .profile-pic {
   display: flex;
   justify-content: center;
   align-items: center;
   img {
     border-radius: 100%;
-    box-shadow: 0px 0px 50px #e9a622;
+    box-shadow: 0px 0px 30px #e9a622;
+    transition: 0.8s ease;
 
+    @media screen and (max-width: "1200px") {
+      width: 370px;
+    }
     @media screen and (max-width: "992px") {
       width: 350px;
-      transition: 0.8s ease;
     }
     @media screen and (max-width: "770px") {
       width: 280px;
-      transition: 0.8s ease;
     }
     @media screen and (max-width: "445px") {
       width: 250px;
-      transition: 0.8s ease;
     }
     @media screen and (max-width: "392px") {
       width: 250px;
-      transition: 0.8s ease;
     }
     @media screen and (max-width: "350px") {
       width: 230px;
-      transition: 0.8s ease;
     }
     @media screen and (max-width: "300px") {
+      margin-top: 10px;
       width: 210px;
-      transition: 0.8s ease;
     }
   }
 }

@@ -122,7 +122,7 @@ const About = () => {
                   </div>
                   <div className="venture__item-about">
                     <p></p>
-                    <span><a href="https://gaminggeeks.online"><i class="fas fa-external-link-alt"></i> gaminggeeks.online</a></span>
+                    <span><a href="https://gaminggeeks.online" target="_blank" rel="noreferrer"><i class="fas fa-external-link-alt"></i> gaminggeeks.online</a></span>
                   </div>
                 </div>
               </div>

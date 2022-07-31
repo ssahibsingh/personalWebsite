@@ -8,7 +8,6 @@
   //   text-align: center;
 }
 
-
 .comp {
   background: white;
 }
@@ -31,7 +30,7 @@
       filter: blur(8px);
     }
   }
-  
+
   .project__item-about {
     .project__name {
       text-align: center;
@@ -66,12 +65,12 @@
         li {
           margin: 0 20px;
         }
-        
+
         // @media screen and (max-width: 340px) {
-          //   font-size: 60px;
-          // }
-          // @media screen and (max-width: 300px) {
-            //   font-size: 50px;
+        //   font-size: 60px;
+        // }
+        // @media screen and (max-width: 300px) {
+        //   font-size: 50px;
         // }
       }
     }
@@ -100,7 +99,7 @@
           color: #4489db;
         }
       }
-      
+
       .code {
         background-color: #ebf5ff;
         a {
@@ -111,26 +110,11 @@
   }
 }
 
-.project__other-heading{
-  h3{
+.project__other-heading {
+  h3 {
     text-align: center;
-    margin: 20px 0; 
+    margin: 20px 0;
     font-size: 30px;
     font-family: "Taviraj", serif;
-  }
-}
-
-.product__details {
-  
-  .project__detail {
-    padding: 10px;
-    transition: 0.5s ease;
-    height: 100%;
-    img {
-      width: 100%;
-    }
-    @media screen and (max-width: 330px) {
-      padding: 5px;
-    }
   }
 }

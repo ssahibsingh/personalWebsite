@@ -225,96 +225,71 @@ const Project = () => {
                 <h3>Other Projects</h3>
               </div>
               <div className="row justify-content-center">
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ggeeks/ggeeks.github.io">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ggeeks&repo=ggeeks.github.io&show_owner=true" alt="ggeeks.github.io" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ggeeks/ggeeks.github.io">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ggeeks&repo=ggeeks.github.io&show_owner=true" alt="ggeeks.github.io" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/qrcode-generator">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=qrcode-generator" alt="qrcode-generator" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/blog-website-pub">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=blog-website-pub" alt="blog-website-pub" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/blog-website-pub">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=blog-website-pub" alt="blog-website-pub" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/qrcode-generator">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=qrcode-generator" alt="qrcode-generator" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ggeeks/GamerDays2-Website">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ggeeks&repo=GamerDays2-Website&show_owner=true" alt="GamerDays2-Website" />
-                    </a>
-                  </div>
+
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ggeeks/GamerDays2-Website">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ggeeks&repo=GamerDays2-Website&show_owner=true" alt="GamerDays2-Website" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/Project-GamingGeeks">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=Project-GamingGeeks" alt="Project-GamingGeeks" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/Project-GamingGeeks">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=Project-GamingGeeks" alt="Project-GamingGeeks" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/Project-TiwanaPowerSol">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=Project-TiwanaPowerSol" alt="Project-TiwanaPowerSol" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/Project-TiwanaPowerSol">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=Project-TiwanaPowerSol" alt="Project-TiwanaPowerSol" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/todolist-pub">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=todolist-pub" alt="todolist-pub" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/todolist-pub">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=todolist-pub" alt="todolist-pub" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/newsletter-signup-pub">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=newsletter-signup-pub" alt="newsletter-signup-pub" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/newsletter-signup-pub">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=newsletter-signup-pub" alt="newsletter-signup-pub" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/TossTheDice">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=TossTheDice" alt="TossTheDice" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/TossTheDice">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=TossTheDice" alt="TossTheDice" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/simongame">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=simongame" alt="simongame" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/simongame">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=simongame" alt="simongame" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/drumkit">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=drumkit" alt="drumkit" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/drumkit">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=drumkit" alt="drumkit" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/flipkartclone">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=flipkartclone" alt="flipkartclone" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/flipkartclone">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=flipkartclone" alt="flipkartclone" />
+                  </a>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 project__details">
-                  <div className="project__detail">
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/chaining-the-EVMs">
-                      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=chaining-the-EVMs" alt="chaining-the-EVMs" />
-                    </a>
-                  </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3  ">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/chaining-the-EVMs">
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=chaining-the-EVMs" alt="chaining-the-EVMs" />
+                  </a>
                 </div>
               </div>
             </div>

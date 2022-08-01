@@ -1,0 +1,67 @@
+.education {
+  padding: 100px 0;
+}
+.edu__mainrow {
+  width: 80%;
+  @media screen and(max-width: 992px) {
+    width: 100%;
+  }
+}
+
+.education__heading {
+  margin: 0 0 20px 0;
+  // padding-bottom: 30px;
+}
+.ins {
+  margin: 50px auto;
+  padding: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+  color: #333;
+  .ins__logo {
+    text-align: center;
+    img {
+      width: 250px;
+    }
+  }
+  .ins__info {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+  }
+
+  .ins__name {
+    word-wrap: break-word;
+    font-size: 20px;
+    @media screen and (max-width: 430px) {
+      font-size: 18px;
+    }
+  }
+
+  .ins__duration {
+    word-wrap: break-word;
+    @media screen and (max-width: 430px) {
+      font-size: 15px;
+    }
+  }
+  .ins__edu {
+    word-wrap: break-word;
+    font-size: 18px;
+    @media screen and (max-width: 430px) {
+      font-size: 17px;
+    }
+  }
+
+  .ins__deg {
+    word-wrap: break-word;
+    font-size: 17px;
+    @media screen and (max-width: 430px) {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    margin: 40px auto;
+    padding: 20px;
+  }
+}

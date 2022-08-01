@@ -35,7 +35,7 @@ const Navbar = () => {
             <li><a className="nav-link" href="#about">About</a></li>
             <li><a className="nav-link" href="#project">Projects</a></li>
             <li><a className="nav-link" href="#skill">Skills & Experience</a></li>
-            {/* <li><a className="nav-link" href="#education">Education</a></li> */}
+            <li><a className="nav-link" href="#education">Education</a></li>
             <li><a className="nav-link" href="#contact">Contact</a></li>
             
             <li><a className="nav__btn nav-link nav__menu-btn" href={resume} target="_blank" rel="noreferrer" onMouseOver={() => { setIsOver(true) }} onMouseOut={() => { setIsOver(false) }}>

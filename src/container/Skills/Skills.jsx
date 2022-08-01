@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Skills.scss'
 import Button from '@cred/neopop-web/lib/components/Button';
+import resume from '../../assets/resume/Resume - Sahib Singh.pdf'
 
 const Skills = () => {
   const [isOver, setIsOver] = useState(false);
@@ -29,170 +30,170 @@ const Skills = () => {
                 <h3 className="skill__heading-2"><b className="yellow-tags">&lt;</b>My Skills<b className="yellow-tags">/&gt;</b></h3>
                 
                 <div className="row justify-content-center text-center">
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-c-plain-wordmark colored"></i>
+                        <i className="devicon-c-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>HTML</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-cplusplus-plain-wordmark colored"></i>
+                        <i className="devicon-cplusplus-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>HTML</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-python-plain-wordmark colored"></i>
+                        <i className="devicon-python-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>Python</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-java-plain-wordmark colored"></i>
+                        <i className="devicon-java-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>Python</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-selenium-original colored"></i>
+                        <i className="devicon-selenium-original colored"></i>
                       </div>
                       {/* <h6>CSS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-html5-plain-wordmark colored"></i>
+                        <i className="devicon-html5-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-css3-plain-wordmark colored"></i>
+                        <i className="devicon-css3-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-sass-original colored"></i>
+                        <i className="devicon-sass-original colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-javascript-plain colored"></i>
+                        <i className="devicon-javascript-plain colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-jquery-plain-wordmark colored"></i>
+                        <i className="devicon-jquery-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                        <i className="devicon-bootstrap-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-nodejs-plain-wordmark colored"></i>
+                        <i className="devicon-nodejs-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-express-original-wordmark colored"></i>
+                        <i className="devicon-express-original-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-react-original-wordmark colored"></i>
+                        <i className="devicon-react-original-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-babel-plain colored"></i>
+                        <i className="devicon-babel-plain colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-mysql-plain-wordmark colored"></i>
+                        <i className="devicon-mysql-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-mongodb-plain-wordmark colored"></i>
+                        <i className="devicon-mongodb-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-heroku-plain-wordmark colored"></i>
+                        <i className="devicon-heroku-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-git-plain-wordmark colored"></i>
+                        <i className="devicon-git-plain-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-github-original-wordmark colored"></i>
+                        <i className="devicon-github-original-wordmark colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-3 col-3">
+                  <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4">
                     <div className="skill__detail">
                       <div className="skill__icon">
-                        <i class="devicon-canva-original colored"></i>
+                        <i className="devicon-canva-original colored"></i>
                       </div>
                       {/* <h6>JS</h6> */}
                     </div>
@@ -234,7 +235,7 @@ const Skills = () => {
                 </div>
               </div>
               <div className="get-resume">
-                <a href="https://ssahibsingh.github.io/resume" target="_blank" rel="noreferrer" onMouseOver={() => { setIsOver(true) }} onMouseOut={() => { setIsOver(false) }}><Button colorConfig={colorConfig} className={isOver && "active"} variant="primary" kind="elevated" size="medium" colorMode="dark" >Get Resume</Button></a>
+                <a href={resume} target="_blank" rel="noreferrer" onMouseOver={() => { setIsOver(true) }} onMouseOut={() => { setIsOver(false) }}><Button colorConfig={colorConfig} className={isOver && "active"} variant="primary" kind="elevated" size="medium" colorMode="dark" >Get Resume</Button></a>
               </div>
             </div>
           </div>

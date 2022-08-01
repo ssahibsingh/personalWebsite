@@ -16,7 +16,7 @@ const About = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
             <div className="about__item">
               <div className="about__item-img">
-                <img src={images.backend} alt="" />
+                <img className="img-fluid" src={images.backend} alt="" />
               </div>
               <div className="about__item-content">
                 <div className="about__item-heading">
@@ -48,7 +48,7 @@ const About = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
             <div className="about__item">
               <div className="about__item-img">
-                <img src={images.frontend} alt="" />
+                <img className="img-fluid"src={images.frontend} alt="" />
               </div>
               <div className="about__item-content">
                 <div className="about__item-heading">
@@ -81,7 +81,7 @@ const About = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
             <div className="about__item">
               <div className="about__item-img">
-                <img src={images.nitj} alt="" />
+                <img className="img-fluid"src={images.nitj} alt="" />
               </div>
               <div className="about__item-content">
                 <div className="about__item-heading">
@@ -118,22 +118,22 @@ const About = () => {
               <div className="col-lg-6 col-12 py-3">
                 <div className="venture__item">
                   <div className="venture__item-logo">
-                    <img src={images.gaminggeeks} alt="Gaming Geeks" />
+                    <img className="img-fluid"src={images.gaminggeeks} alt="Gaming Geeks" />
                   </div>
                   <div className="venture__item-about">
                     <p></p>
-                    <span><a href="https://gaminggeeks.online" target="_blank" rel="noreferrer"><i class="fas fa-external-link-alt"></i> gaminggeeks.online</a></span>
+                    <span><a href="https://gaminggeeks.online" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i> gaminggeeks.online</a></span>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 col-12 py-3">
                 <div className="venture__item">
                   <div className="venture__item-logo">
-                    <img className="blur" src={images.soorme} alt="Soorme.com" />
+                    <img className="img-fluid blur" src={images.soorme} alt="Soorme.com" />
                   </div>
                   <div className="venture__item-about">
                     <p></p>
-                    <span><i class="fa-solid fa-code"></i> In development</span>
+                    <span><i className="fa-solid fa-code"></i> In development</span>
                   </div>
                 </div>
               </div>

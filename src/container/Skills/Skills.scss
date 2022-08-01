@@ -8,6 +8,7 @@
 
 .skill__heading-1 {
   padding-top: 20px;
+
 }
 
 .skill__heading-2 {
@@ -59,6 +60,7 @@
 .exp_heading-2 {
   font-size: 30px;
   font-family: "Taviraj", serif;
+  word-wrap: break-word;
 }
 
 .experience__details {
@@ -69,6 +71,8 @@
   }
 
   h6 {
+    word-wrap: break-word;
+    
     transition: 0.8s ease;
     @media screen and (max-width: 385px) {
       font-size: 14px;
@@ -79,6 +83,7 @@
   }
   h5 {
     transition: 0.8s ease;
+    word-wrap: break-word;
     @media screen and (max-width: 385px) {
       font-size: 18px;
     }
@@ -90,6 +95,7 @@
     }
   }
   p {
+    word-wrap: break-word;
     transition: 0.8s ease;
     @media screen and (max-width: 350px) {
       font-size: 14px;

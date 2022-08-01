@@ -15,9 +15,12 @@
   background: rgb(248, 243, 243);
 }
 .project__item {
+  transition: 0.5s ease;
   padding: 10px;
-  border: 2px solid #18171c;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  // border: 2px solid #18171c;
+  // box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
   height: 100%;
   .project__item-img {
     text-align: center;
@@ -30,28 +33,31 @@
       filter: blur(8px);
     }
   }
-
   .project__item-about {
     .project__name {
-      text-align: center;
       h3 {
-        font-size: 30px;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
       }
       p {
-        font-size: 15px;
-        font-weight: 400;
+        width: 90%;
+        height: auto;
       }
     }
     .project__item-about-content {
       padding: 20px 10px;
+      height: auto;
       p {
-        font-size: 18px;
-        height: auto;
+        width: 90%;
+        margin: 0 auto;
       }
       .project__item-about-tech {
         text-align: center;
-        h4 {
-          font-size: 23px;
+        padding-top: 10px;
+        h5 {
+          font-size: 17px;
+          color: #212023;
         }
       }
       ul {
@@ -59,33 +65,14 @@
         margin: 0;
         padding: 0;
         text-align: center;
-        font-size: 20px;
-        // display:flex;
-        // justify-content: center;
-        li {
-          margin: 0 20px;
-        }
-
-        // @media screen and (max-width: 340px) {
-        //   font-size: 60px;
-        // }
-        // @media screen and (max-width: 300px) {
-        //   font-size: 50px;
-        // }
       }
     }
     .project__item-links {
-      // display: flex;
-      // justify-content: space-evenly;
-      // align-items: center;
       position: relative;
       bottom: 0;
       .project__item-links-item {
         width: 50%;
-        // height:50px;
         font-size: 15px;
-        // background-color: #d2cfda;
-        // border-radius: 50%;
         text-align: center;
         margin: 10px auto;
         padding: 5px;
@@ -99,7 +86,6 @@
           color: #4489db;
         }
       }
-
       .code {
         background-color: #ebf5ff;
         a {
@@ -108,13 +94,30 @@
       }
     }
   }
+  &:hover{
+    transform: translateY(-0.6%);
+    transition: 0.3s ease;
+  }
 }
-
+.project__other{
+  img{
+    transition: 0.2s ease;
+    // border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+  // transform: scale(1.01)
+  &:hover{
+    transform: translateY(-2%);
+  }
+  }
+}
 .project__other-heading {
   h3 {
+    color: #333;
     text-align: center;
     margin: 20px 0;
     font-size: 30px;
     font-family: "Taviraj", serif;
+    padding-top: 30px;
   }
+
 }

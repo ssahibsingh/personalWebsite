@@ -4,10 +4,13 @@
   "private": true,
   "dependencies": {
     "@cred/neopop-web": "^1.0.0",
+    "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
+    "dotenv": "^16.0.1",
     "node-sass": "^7.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
@@ -15,6 +18,7 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "validator": "^13.7.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

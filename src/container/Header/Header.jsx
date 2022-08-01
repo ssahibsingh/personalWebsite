@@ -10,8 +10,8 @@ const Header = () => {
             <div className="col-lg-7 header__flex">
               <div className="">
                 <div >
-                <h6 className="header__hello">Hello. </h6>
-                <h1 className="header__intro">I'm Sahib Singh</h1>
+                <h6 className="header__hello">Hello.  I'm</h6>
+                <h1 className="header__intro">Sahib Singh</h1>
                 <p className="header__list">
                   <b className="yellow-tags">&lt;</b>He/Him <b className="yellow-tags">/&gt;</b>
                 </p>
@@ -20,7 +20,7 @@ const Header = () => {
             </div>
             <div className="col-lg-5">
               <div className="profile-pic">
-                <img src={images.profile} title="" alt="" />
+                <img className="img-fluid" src={images.profile} title="" alt="" />
               </div>
             </div>
           </div>

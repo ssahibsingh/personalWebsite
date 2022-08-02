@@ -59,7 +59,7 @@ const Contact = () => {
             <div className="col-lg-6">
               <div className="contact__form-1">
                 {/* <h6>Get in touch</h6> */}
-                <form id="contact-form" ref={form}>
+                <form id="contact-form" ref={form} method="POST">
                   <div className="row gx-3 gy-4">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -95,7 +95,7 @@ const Contact = () => {
                     </div>
                     <div className="col-md-12">
                       <div className="form__button text-center">
-                        <p onClick={sendEmail} onMouseOver={() => { setIsOver(true) }} onMouseOut={() => { setIsOver(false) }}><Button colorConfig={colorConfig} className={isOver && "active"} variant="primary" kind="elevated" size="medium" colorMode="dark">Send Message</Button></p>
+                        <p type="button" onClick={sendEmail}/*onClick={sendEmail}*/ onMouseOver={() => { setIsOver(true) }} onMouseOut={() => { setIsOver(false) }}><Button colorConfig={colorConfig} type="submit" className={isOver && "active"} variant="primary" kind="elevated" size="medium" colorMode="dark">Send Message</Button></p>
                       </div>
                     </div>
                   </div>

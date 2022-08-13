@@ -1,6 +1,6 @@
 .about {
   padding: 100px 0;
-  background: rgba(254, 247, 233, 1);
+  background: var(--bg2);
   transition: 1s ease;
   @media screen and (max-width: 545px) {
     padding: 90px 0;
@@ -29,11 +29,10 @@
   margin: 0 10px;
   padding: 20px 10px;
   transition: 0.5s ease;
-  background: white;
+  background: var(--bg);
   height: 100%;
   border-radius: 10px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
-  // border: 2px solid #18171c;
   .about__item-img {
     text-align: center;
     img {
@@ -42,9 +41,9 @@
       margin: 10px 0;
     }
   }
-  
+
   .about__item-heading {
-    color: #333;
+    color: var(--black);
     h3 {
       text-align: center;
       font-size: 20px;
@@ -69,7 +68,7 @@
 
 .about__item-details {
   h5 {
-    color: #333;
+    color: var(--black);
     font-size: 17px;
   }
   .about__item-section-2 {
@@ -81,7 +80,7 @@
   }
 }
 .venture {
-  color: #333;
+  color: var(--black);
   padding: 50px 0;
   .venture__heading {
     font-size: 35px;
@@ -105,13 +104,11 @@
     width: 80%;
 
     .venture__item {
-      background: white;
-      // border: 2px solid #18171c;
+      background: var(--bg);
       height: 100%;
       padding: 40px;
-      // box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
       border-radius: 10px;
-  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+      box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
       transition: 0.5s ease;
       .venture__item-logo {
         img {
@@ -163,7 +160,7 @@
       }
       &:hover {
         transition: 0.3s ease;
-    transform: translateY(-0.6%);
+        transform: translateY(-0.6%);
       }
       @media screen and (max-width: 385px) {
         padding: 30px;

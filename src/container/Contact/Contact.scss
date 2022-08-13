@@ -1,24 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap");
 .contact {
   padding: 100px 0;
-  background: rgba(254, 247, 233, 1);
+  background: var(--bg2);
 }
 .contact__form {
   padding: 40px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  //   margin: auto;
 }
 
 .contact__form-1 {
-  // border: 2px solid #18171c;
   border-radius: 10px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
   padding: 35px;
-  background: white;
-
-  //   background: #fff;
+  background: var(--bg);
 
   @media (max-width: 767px) {
     padding: 25px;
@@ -27,7 +23,7 @@
   h6 {
     font-size: 32px;
     font-weight: 600;
-    color: #18171c;
+    color: var(--black);
     margin: 0 0 5px;
     font-family: "Saira", cursive;
     text-align: center;
@@ -42,27 +38,26 @@
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
     padding: 0.575rem 0.75rem;
-    
-    
+    background-color: var(--bg);
   }
-  .ok{
+  .ok {
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
-    &:focus{
+    &:focus {
       box-shadow: 0px 0px 20px 0px #f4daa6;
     }
   }
-  .error{
+  .error {
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgb(214, 158, 158);
-    &:focus{
+    &:focus {
       box-shadow: 0px 0px 20px 0px #f4daa6;
     }
   }
-  .form-group{
-    span{
+  .form-group {
+    span {
       padding: 10px 5px 0 5px;
-      color:rgb(210, 47, 47);
+      color: rgb(210, 47, 47);
     }
   }
 }
@@ -72,23 +67,17 @@
     text-decoration: none;
   }
   Button {
-    // position:unset;
     z-index: 2;
   }
 }
 
 .contact__infos {
-  // margin: 30px 0;
   padding: 30px;
   font-size: 30px;
   a {
-    // background-color: bisque;
-    // width: 20px;
-    // height: 20px;
     color: #333;
     margin: 20px;
     padding: 10px;
-    // border-radius: 50%;
   }
 }
 
@@ -96,28 +85,27 @@
   width: 250px;
 }
 
-.message__success{
-  span{
+.message__success {
+  span {
     padding: 7px 15px;
     border-radius: 10px;
     color: rgb(52, 171, 104);
     background: rgba(203, 255, 226, 0.4);
   }
 }
-.message__error{
-  span{
+.message__error {
+  span {
     padding: 7px 15px;
     border-radius: 10px;
     color: rgb(139, 41, 41);
-    background: rgba(255, 201, 201,0.4);
+    background: rgba(255, 201, 201, 0.4);
   }
 }
-.message__empty{
-  span{
+.message__empty {
+  span {
     padding: 7px 15px;
     border-radius: 10px;
     color: rgb(110, 100, 39);
     background: #f4daa6;
   }
 }
-

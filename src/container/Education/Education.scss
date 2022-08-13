@@ -1,5 +1,6 @@
 .education {
   padding: 100px 0;
+  background: var(--bg);
 }
 .edu__mainrow {
   width: 80%;
@@ -10,14 +11,13 @@
 
 .education__heading {
   margin: 0 0 20px 0;
-  // padding-bottom: 30px;
 }
 .ins {
   margin: 50px auto;
   padding: 0 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
-  color: #333;
+  color: var(--black);
   .ins__logo {
     text-align: center;
     img {

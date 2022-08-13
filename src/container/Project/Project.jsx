@@ -227,68 +227,68 @@ const Project = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ggeeks/ggeeks.github.io">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ggeeks&repo=ggeeks.github.io&show_owner=true" alt="ggeeks.github.io" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ggeeks&repo=ggeeks.github.io&show_owner=true&border_color=fafafa&bg_color=fafafa&border_radius=10" alt="ggeeks.github.io" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/blog-website-pub">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=blog-website-pub" alt="blog-website-pub" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=blog-website-pub&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="blog-website-pub" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/qrcode-generator">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=qrcode-generator" alt="qrcode-generator" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=qrcode-generator&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="qrcode-generator" />
                   </a>
                 </div>
 
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ggeeks/GamerDays2-Website">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ggeeks&repo=GamerDays2-Website&show_owner=true" alt="GamerDays2-Website" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ggeeks&repo=GamerDays2-Website&show_owner=true&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="GamerDays2-Website" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/Project-GamingGeeks">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=Project-GamingGeeks" alt="Project-GamingGeeks" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=Project-GamingGeeks&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="Project-GamingGeeks" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/Project-TiwanaPowerSol">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=Project-TiwanaPowerSol" alt="Project-TiwanaPowerSol" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=Project-TiwanaPowerSol&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="Project-TiwanaPowerSol" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/todolist-pub">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=todolist-pub" alt="todolist-pub" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=todolist-pub&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="todolist-pub" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/newsletter-signup-pub">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=newsletter-signup-pub" alt="newsletter-signup-pub" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=newsletter-signup-pub&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="newsletter-signup-pub" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/TossTheDice">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=TossTheDice" alt="TossTheDice" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=TossTheDice&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="TossTheDice" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/simongame">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=simongame" alt="simongame" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=simongame&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="simongame" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/drumkit">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=drumkit" alt="drumkit" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=drumkit&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="drumkit" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/flipkartclone">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=flipkartclone" alt="flipkartclone" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=flipkartclone&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="flipkartclone" />
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center  ">
                   <a target="_blank" rel="noreferrer" href="https://github.com/ssahibsingh/chaining-the-EVMs">
-                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=chaining-the-EVMs" alt="chaining-the-EVMs" />
+                    <img className="img-fluid" src="https://github-readme-stats.vercel.app/api/pin/?username=ssahibsingh&repo=chaining-the-EVMs&bg_color=fafafa&border_color=fafafa&border_radius=10" alt="chaining-the-EVMs" />
                   </a>
                 </div>
               </div>

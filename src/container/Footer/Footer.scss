@@ -1,18 +1,19 @@
 .footer {
+  background: var(--bg);  
   border-top: 1.5px solid #ddd;
   padding: 15px 0;
-  color: #18171c;
+  color: var(--black);
 }
 
 .footer__links{
     a{
         font-size: large;
-        color: #18171c;
+        color: var(--black);
         margin: 0 10px;
     }
 }
 
 .footer__copy{
-    color: #18171c;
+    color: var(--black);
     margin: auto 0;
 }

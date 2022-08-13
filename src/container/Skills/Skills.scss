@@ -2,13 +2,12 @@
 
 .skillAndExperience {
   padding: 100px 0;
-  background: rgba(254,247,233,1);
-  // backdrop-filter: blur(10px);
+  background: var(--bg2);
+  color: var(--black);
 }
 
 .skill__heading-1 {
   padding-top: 20px;
-
 }
 
 .skill__heading-2 {
@@ -19,23 +18,18 @@
 
 .skill {
   padding: 20px 0;
-
   .row {
     padding: 20px 0;
-
     .skill__detail {
-      // margin: 10px 0;
       padding: 15px 10px;
-      // border: 2px solid #18171c;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-align: center;
       align-items: center;
-      // box-shadow: 0 0 0 0 #18171c;
       transition: ease all 0.35s;
     }
     h6 {
-      color: #18171c;
+      color: var(--black);
       margin: 0;
       padding-left: 15px;
     }
@@ -49,7 +43,6 @@
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
-    // background: #f7af24;
     font-size: 50px;
     display: -ms-flexbox;
     display: flex;
@@ -66,13 +59,12 @@
 .experience__details {
   padding: 20px 5px;
   .row {
-    border-top: 2px solid black;
+    border-top: 2px solid var(--black);
     padding-top: 10px;
   }
 
   h6 {
     word-wrap: break-word;
-    
     transition: 0.8s ease;
     @media screen and (max-width: 385px) {
       font-size: 14px;

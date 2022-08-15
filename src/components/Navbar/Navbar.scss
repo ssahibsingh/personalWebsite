@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Taviraj:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 .nav {
   width: 100%;
   display: flex;
@@ -13,6 +16,38 @@
   font-family: "Taviraj", serif;
   z-index: 10;
 }
+.nav__logo{
+  display: flex;
+  align-items: center;
+  margin:0 1rem;
+  padding: 5px 0 0 0;
+  h1{
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+    font-weight:500;
+    transition: 1s ease;
+    a{
+      color: var(--black);
+      text-decoration: none;
+    }
+    @media screen and (max-width: 260px) {
+      font-size: 35px;
+    }
+    @media screen and (max-width: 240px) {
+      font-size: 30px;
+    }
+    @media screen and (max-width: 220px) {
+      font-size: 27px;
+    }
+    @media screen and (max-width: 193px) {
+      font-size: 40px;
+    }
+    @media screen and (max-width: 170px) {
+      font-size: 40px;
+    }
+  }
+}
+
 
 .nav__logo img {
   position: relative;

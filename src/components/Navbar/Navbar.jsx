@@ -23,9 +23,10 @@ const Navbar = () => {
   return (
     <>
       <nav className="nav">
-        <a className="nav__logo" href="/">
-          <img src={images.logo} title="" alt="" />
-        </a>
+      <div className="nav__logo">
+        <h1><a href="/">Sahib Singh</a></h1>
+      </div>
+        
         <button className="hamburger" onClick={() => { setIsNavExpanded(!isNavExpanded) }}>
           <i className="fa-solid fa-bars"></i>
         </button>

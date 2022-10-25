@@ -23,6 +23,11 @@
   .project__item-img {
     text-align: center;
     padding: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     img {
       width: 200px;
       height: 200px;
@@ -53,6 +58,7 @@
       .project__item-about-tech {
         text-align: center;
         padding-top: 10px;
+
         h5 {
           font-size: 17px;
           color: var(--black);
@@ -68,6 +74,11 @@
     .project__item-links {
       position: relative;
       bottom: 0;
+      user-select: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
       .project__item-links-item {
         width: 50%;
         font-size: 15px;

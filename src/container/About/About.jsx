@@ -67,7 +67,7 @@ const About = () => {
                   </div>
                   <p></p>
                   <div className="venture__item-about">
-                    <span><a href="https://gaminggeeks.online" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i> gaminggeeks.online</a></span>
+                    <span><a href="https://ggeeks.github.io" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i> ggeeks.github.io</a></span>
                   </div>
                 </div>
               </div>

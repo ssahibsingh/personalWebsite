@@ -25,32 +25,32 @@ const Project = () => {
                         </div>
                         <div className="project__item-about-content">
                           <p>{item.description}</p>
+                          
+                            {item.techStack && (
+                              <>
+                                <div className="project__item-about-tech">
+                                  <h5>Tech Stack</h5>
+                                </div>
+                                <ul>
+                                  {item.techStack.map((tech, index) => {
+                                    return <li key={index}>{tech}</li>
+                                  })}
+                                </ul>
+                              </>
+                            )}
 
-                          {item.techStack && (
-                            <>
-                              <div className="project__item-about-tech">
-                                <h5>Tech Stack</h5>
-                              </div>
-                              <ul>
-                                {item.techStack.map((tech, index) => {
-                                  return <li key={index}>{tech}</li>
-                                })}
-                              </ul>
-                            </>
-                          )}
-
-                          {item.components && (
-                            <>
-                              <div className="project__item-about-tech">
-                                <h5>Components</h5>
-                              </div>
-                              <ul>
-                                {item.components.map((tech, index) => {
-                                  return <li key={index}>{tech}</li>
-                                })}
-                              </ul>
-                            </>
-                          )}
+                            {item.components && (
+                              <>
+                                <div className="project__item-about-tech">
+                                  <h5>Components</h5>
+                                </div>
+                                <ul>
+                                  {item.components.map((tech, index) => {
+                                    return <li key={index}>{tech}</li>
+                                  })}
+                                </ul>
+                              </>
+                            )}
                         </div>
                         <div className="project__item-links">
                           {item.complete ? (

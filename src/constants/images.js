@@ -17,7 +17,7 @@ import urlShortner from '../assets/projects/url-shortner.png';
 import soormeLogo from '../assets/projects/soorme-logo.png';
 import socialmedia from '../assets/projects/social-media.png';
 import googleForms from '../assets/projects/google-forms.png';
-import portfolioGen from '../assets/projects/portfolio-generator.svg';
+import portfolioGen from '../assets/projects/portfolio.png';
 
 // Education
 import nitjLogo from '../assets/education/nitj.png';

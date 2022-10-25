@@ -1,11 +1,10 @@
 // Profile
 import profile from '../assets/profile.png';
-import logo from '../assets/logo.png';
 
 // About
-import nitj from '../assets/nitj.svg';
-import backend from '../assets/backend.svg';
-import frontend from '../assets/frontend.png';
+import nitj from '../assets/nitj.png';
+import backend from '../assets/backend2.png';
+import frontend from '../assets/frontend2.png';
 
 // Ventures
 import soorme from '../assets/soorme.png';
@@ -26,8 +25,6 @@ import mspLogo from '../assets/education/msp.png';
 
 
 
-import chat from '../assets/chat.svg';
-
 export default {
-    profile, chat, logo, backend, frontend, nitj, gaminggeeks, soorme, youtube, soormeLogo, urlShortner, socialmedia, googleForms, portfolioGen, nitjLogo, asmLogo, mspLogo
+    profile, backend, frontend, nitj, gaminggeeks, soorme, youtube, soormeLogo, urlShortner, socialmedia, googleForms, portfolioGen, nitjLogo, asmLogo, mspLogo
 }

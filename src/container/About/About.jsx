@@ -4,18 +4,13 @@ import './About.scss'
 
 const About = () => {
   return (
-
-    <section className="about" id="about">
+    <section className="about py-5" id="about">
       <div className="container">
-        {/* <div className="about__span">
-            <span>About Me</span>
-          </div> */}
         <h2 className="section__heading text-center py-5">About Me</h2>
-        {/* <p></p> */}
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
-            <div className="about__item">
-              <div className="about__item-img">
+            <div className="about__item mx-2 py-4 px-2">
+              <div className="about__item-img ">
                 <img className="img-fluid" src={images.backend} alt="" />
               </div>
               <div className="about__item-content">
@@ -46,9 +41,9 @@ const About = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
-            <div className="about__item">
+            <div className="about__item mx-2 py-4 px-2">
               <div className="about__item-img">
-                <img className="img-fluid"src={images.frontend} alt="" />
+                <img className="img-fluid" src={images.frontend} alt="" />
               </div>
               <div className="about__item-content">
                 <div className="about__item-heading">
@@ -79,9 +74,9 @@ const About = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
-            <div className="about__item">
+            <div className="about__item mx-2 py-4 px-2">
               <div className="about__item-img">
-                <img className="img-fluid"src={images.nitj} alt="" />
+                <img className="img-fluid" src={images.nitj} alt="" />
               </div>
               <div className="about__item-content">
                 <div className="about__item-heading">
@@ -118,7 +113,7 @@ const About = () => {
               <div className="col-lg-6 col-12 py-3">
                 <div className="venture__item">
                   <div className="venture__item-logo">
-                    <img className="img-fluid"src={images.gaminggeeks} alt="Gaming Geeks" />
+                    <img className="img-fluid" src={images.gaminggeeks} alt="Gaming Geeks" />
                   </div>
                   <div className="venture__item-about">
                     <p></p>

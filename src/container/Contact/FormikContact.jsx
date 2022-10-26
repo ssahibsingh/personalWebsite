@@ -47,16 +47,17 @@ const Contact = () => {
     return errors;
   }
   const [isOver, setIsOver] = useState(false);
+  
   const colorConfig = {
-    backgroundColor: '#F7AF24',
-    borderColor: '#18171C',
+    backgroundColor: 'var(--primary)',
+    borderColor: 'var(--secondary)',
     edgeColors: {
       left: 'transparent',
       top: 'transparent',
-      right: '#18171C',
-      bottom: '#18171C'
+      right: 'var(--black)',
+      bottom: 'var(--black)'
     },
-    color: '#18171C'
+    color: 'var(--black)'
   }
   return (
     <>

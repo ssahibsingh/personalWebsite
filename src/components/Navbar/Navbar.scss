@@ -40,7 +40,7 @@
     color: var(--black);
     transition: 0.25s ease;
     &:hover, &:focus {
-      color: var(--yellow);
+      color: var(--secondary);
     }
   }
 }
@@ -98,7 +98,7 @@
   position: absolute;
   height: 3px;
   width: 100%;
-  background: var(--yellow);
+  background: var(--secondary);
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -147,5 +147,5 @@
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
-  background: var(--yellow);
+  background: var(--secondary);
 }

@@ -14,16 +14,16 @@ const Navbar = () => {
   }
 
   const colorConfig = {
-    backgroundColor: "#F7AF24",
-    borderColor: "#18171C",
+    backgroundColor: 'var(--primary)',
+    borderColor: 'var(--secondary)',
     edgeColors: {
-      left: "transparent",
-      top: "transparent",
-      right: "#18171C",
-      bottom: "#18171C",
+      left: 'transparent',
+      top: 'transparent',
+      right: 'var(--black)',
+      bottom: 'var(--black)'
     },
-    color: "#18171C",
-  };
+    color: 'var(--black)'
+  }
 
   return (
     <nav className="navbar navbar-expand-lg shadow-sm">

@@ -4,8 +4,11 @@
 :root {
     --font-base: "DM Sans", sans-serif;
     --bg: rgb(250,250,250);
+    /* --bg: rgb(250,250,250); */
     --bg2: rgb(254, 247, 233);
-    --yellow: #e9a622;
+    /* --bg2: rgb(254, 247, 233); */
+    --primary: #e9a622;
+    --secondary: #e9a622;
     --yellow-hover: rgb(235, 173, 50);
     --black: #333;
 }
@@ -42,3 +45,16 @@
     font-size: 60px;
     padding: 0 5px;
 }
+
+.tags {
+    color: var(--primary);
+    font-family: "Amatic SC", cursive;
+  }
+  
+  img {
+      user-select: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+  }

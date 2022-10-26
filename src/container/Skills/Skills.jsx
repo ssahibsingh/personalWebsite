@@ -10,15 +10,15 @@ const Skills = () => {
   const [isOver, setIsOver] = useState(false);
 
   const colorConfig = {
-    backgroundColor: '#F7AF24',
-    borderColor: '#18171C',
+    backgroundColor: 'var(--primary)',
+    borderColor: 'var(--secondary)',
     edgeColors: {
       left: 'transparent',
       top: 'transparent',
-      right: '#18171C',
-      bottom: '#18171C'
+      right: 'var(--black)',
+      bottom: 'var(--black)'
     },
-    color: '#18171C'
+    color: 'var(--black)'
   }
 
   return (
@@ -31,7 +31,7 @@ const Skills = () => {
                 <h2 className="section__heading">Skills and <br />Experience</h2>
               </div>
               <div className="skill">
-                <h3 className="skill__heading-2"><b className="yellow-tags">&lt;</b>My Skills<b className="yellow-tags">/&gt;</b></h3>
+                <h3 className="skill__heading-2"><b className="tags">&lt;</b>My Skills<b className="tags">/&gt;</b></h3>
                 <div className="row justify-content-center text-center">
                   {React.Children.toArray(
                       skill.map((item) => {
@@ -55,7 +55,7 @@ const Skills = () => {
             </div>
             <div className="col-lg-6 col-xl-5 ms-auto">
               <div className="experience">
-                <h3 className='exp_heading-2'><b className="yellow-tags">&lt;</b>Experience<b className="yellow-tags">/&gt;</b></h3>
+                <h3 className='exp_heading-2'><b className="tags">&lt;</b>Experience<b className="tags">/&gt;</b></h3>
                 <div className="experience__details">
                   {
                     React.Children.toArray(
